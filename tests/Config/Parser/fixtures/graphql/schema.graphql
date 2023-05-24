@@ -52,6 +52,7 @@ input ReviewInput {
   stars: Int! = 5
   rate: Float! = 1.58
   commentary: String = null
+  deprecatedInputField: String! @deprecated(reason: "This input field was deprecated!")
 }
 
 scalar Year
